@@ -52,12 +52,13 @@ section{
     background-repeat: no-repeat;
     background-position:center center;
     width:100%;
+    background-size: contain;
 }
 .about-me img{
     width:50%;
 }
 .about_right , .about_left{
-    padding-top:144px;
+    padding-top: 124px;
 }
 .about_right h1 {
     font-size:30px;
