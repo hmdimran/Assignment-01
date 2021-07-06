@@ -24,11 +24,15 @@ section{
     width:50%;
     float:left;
 }
+.col-3{
+    width:33.333333333333%;
+    float:left;
+}
 
 .hero_section h1{
     font-size:50px;
 }
-.hero_section a{
+.hero_section a , .about-me a {
     background: linear-gradient(45deg, lightsalmon, tomato);
     padding: 10px 30px;
     border-radius: 50px;
@@ -48,4 +52,14 @@ section{
 }
 .about-me img{
     width:50%;
+}
+.about_right , .about_left{
+    padding-top:144px;
+}
+.about_right h1 {
+    font-size:30px;
+}
+.about_right h1 , p{
+    margin-bottom:50px;
+    text-align:left;
 }
