@@ -1,6 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin:0;
+    color: #575757;
 }
 a{
     text-decoration: none;
@@ -16,9 +17,24 @@ section{
     width:90%;
     margin:0 auto;
 }
+.change_color{
+    color:#FCC084;
+}
 .col-2{
     width:50%;
     float:left;
+}
+
+.hero_section h1{
+    font-size:50px;
+}
+.hero_section a{
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 30px;
+    border-radius: 50px;
+    color: white;
+    font-weight: 900;
+
 }
 .hero_right img{
     width:80%;
